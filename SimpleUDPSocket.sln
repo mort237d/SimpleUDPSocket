@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainUDPReceiver", "PlainUDPReceiver\PlainUDPReceiver.csproj", "{A0596FFA-21D0-4795-8AEE-F3EE72331E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainUDPReceiver", "PlainUDPReceiver\PlainUDPReceiver.csproj", "{A0596FFA-21D0-4795-8AEE-F3EE72331E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainUDPSender", "PlainUDPSender\PlainUDPSender.csproj", "{32A3A923-D2C4-49FA-BA94-71FCE712224B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainUDPSender", "PlainUDPSender\PlainUDPSender.csproj", "{32A3A923-D2C4-49FA-BA94-71FCE712224B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLib", "ModelLib\ModelLib.csproj", "{636501ED-96E2-42AF-A030-4601D4BA444B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelLib", "ModelLib\ModelLib.csproj", "{636501ED-96E2-42AF-A030-4601D4BA444B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonUDPReceiver", "JsonUDPReceiver\JsonUDPReceiver.csproj", "{91082FB9-1A6A-4CAC-A4C5-EB8EDF7494FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonUDPSender", "JsonUDPSender\JsonUDPSender.csproj", "{576E1CAB-0433-4E95-BA9E-9096E24A01E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{636501ED-96E2-42AF-A030-4601D4BA444B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636501ED-96E2-42AF-A030-4601D4BA444B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636501ED-96E2-42AF-A030-4601D4BA444B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91082FB9-1A6A-4CAC-A4C5-EB8EDF7494FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91082FB9-1A6A-4CAC-A4C5-EB8EDF7494FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91082FB9-1A6A-4CAC-A4C5-EB8EDF7494FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91082FB9-1A6A-4CAC-A4C5-EB8EDF7494FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576E1CAB-0433-4E95-BA9E-9096E24A01E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576E1CAB-0433-4E95-BA9E-9096E24A01E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576E1CAB-0433-4E95-BA9E-9096E24A01E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576E1CAB-0433-4E95-BA9E-9096E24A01E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
